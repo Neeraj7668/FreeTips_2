@@ -1,0 +1,413 @@
+html{
+  scroll-behavior: smooth;
+}
+
+*{
+    margin: 0; padding:0; box-sizing: border-box;
+}
+
+a{
+  text-decoration: none;
+ 
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+li{
+  list-style: none;
+}
+
+p{
+  font-size: 0.9rem;
+  font-weight: 600;
+  line-height: 1.6;
+}
+h1{
+  font-variant: small-caps;
+  font-weight: 900;
+}
+
+h3{
+  font-variant: small-caps;
+  font-weight: 900;
+  font-size:1rem;
+}
+h1:hover{
+  color:  rgb(55, 55, 131) !important;
+  transform: translateX(10%);
+  transition: 0.3s;
+}
+::placeholder{
+  font-size: 0.8rem;
+}
+
+.line{
+  color:rgb(55, 55, 131) !important;
+  font-weight: 900;
+  border-bottom: 3px solid rgb(55, 55, 131) !important;   
+}
+
+.btn{
+  background-color:rgb(58, 58, 68) !important;
+  margin-top: 25px;
+  color: #fff;
+  font-weight: 600;
+  transition: 0.4s;
+  
+}
+
+.btn:hover{
+  color: #000;
+  background-color:rgb(55, 55, 131) !important;
+  transform: translateY(-20%);
+  font-weight: 600;  
+  border-radius: 30px !important;
+}
+
+/* Actual Css Code  */
+
+/* Header Start  */
+header{
+    width: 100%;
+    height: 100vh;    
+    background-attachment: fixed;
+    background-image: url('bg1.jpg');
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.navbar-brand{
+  font-family: 'Ranchers', cursive;
+  font-weight: bold;
+}
+
+.header-section{
+  width: 100%;
+  height: inherit;  
+  text-align: center;
+  position: relative;
+}
+
+.navbar:hover{
+  
+  background-color:rgb(55, 55, 131) !important;
+}
+
+a:hover{
+  color: #000 !important;
+}
+
+.contact{
+  color: rgb(1, 1, 10) !important;  
+  background-color:rgba(140, 140, 143, 0.424)!important;
+  border-radius: 100px;
+  font-weight: 900;
+}
+
+.contact:hover{
+  color:#fff !important;  
+  background-color:rgb(42, 42, 61) !important;
+}
+
+.center-div{
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding-bottom: 50px;
+}
+
+.my-img{
+  height: 100px;
+  width: 140px;
+  border-radius: 50%;
+}
+
+.center-div p{
+  font-weight: 300;
+}
+
+/* Header Ends  */
+
+/* Service Css Start  */
+
+.servicediv{
+  width: 100%;
+  height: auto;
+  padding: 50px 0;
+}
+
+.icon{
+  color:  rgb(55, 55, 131) !important;
+}
+
+.names{
+  padding: 25px;
+  border-right:2px solid rgb(55, 55, 131) !important; 
+  
+}
+
+.names h1{
+  font-size: 1.3rem;
+  font-weight: 900;
+  font-variant: small-caps;
+  color: rgb(58, 58, 68);
+  padding:10px ;
+
+}
+
+.names h1:hover{
+  color: rgb(55, 55, 131) !important;
+  border-radius: 10px;
+  /* transition: 0.3s; */
+} 
+
+.names p{
+  font-style: oblique;
+  font-weight: 500;
+}
+
+.names:hover, .names h1:hover{
+  box-sizing: border-box;
+  box-shadow: 0 0 20px 0 rgba(1, 7, 46, 0.3);
+  background-color: rgb(190, 192, 191);
+  border-radius: 10px;
+  transform: translateY(-20px);
+  transition: 0.3s;
+}
+/* Service Css End */ 
+
+.portfoliodiv{
+  width: 100%;
+  height: auto;
+  padding: 150px 0; 
+  background-color:rgb(214, 214, 216) !important;
+}
+
+.progressdiv{
+  padding-top: 25px;
+}
+
+
+
+/* Project Css Start  */
+
+.projectdiv{
+  width: 100%;
+  height: auto;
+  padding: 50px 0;
+  background-attachment:fixed;
+  background-image: url('bg3.jpg');
+  color: #fff !important;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.projectdiv p{
+  font-size: 0.8rem;
+  font-weight: bold;
+  font-variant: small-caps;
+}
+
+/* Project Css Ends  */
+
+/* Price Css Start  */
+
+.pricediv{
+  width: 100%;
+  height: auto;
+  padding: 35px 0;
+  /* position: relative;   */
+  background-color: rgb(126, 148, 137);
+}
+
+.pricediv span{
+  color:  rgb(55, 55, 131) !important;
+  font-weight: 500;
+  font-size: 2rem;
+
+}
+.card{  
+  border-radius: 20px !important;
+}
+
+.card:hover{
+  box-shadow:0 0 20px 0 rgba(211, 12, 12, 0.3);
+  transform: translateY(-20px);
+  transition: 0.3s;
+}
+
+.second-card{
+  /* padding-top: 20px; */
+ transform: translateX(-20px);
+}
+.card-header{
+  font-size: 1.5rem;
+  font-weight: 700;
+  color:rgb(196, 196, 236) !important; 
+  padding: 25px 9!important;
+  border-radius: 30px !important;
+  
+}
+
+.card-body{
+  font-size: 0.9rem;
+  font-weight: 400;
+  background-color: rgb(236, 235, 234); 
+  padding: 30px 0px!important;
+  
+  
+}
+.card-footer{
+  
+  border-radius: 20px !important;
+}
+
+.card-header, .money{
+  color: rgb(196, 196, 236) !important; 
+}
+/* Price Css end  */
+
+/* Contact Css Start  */
+  .contactdiv{
+    width: 100%;
+    height: 100vh;
+    padding: 30px 0;
+    /* position: absolute; */
+    background-color: rgb(236, 235, 234); 
+  }
+
+  label{
+    font-size: 1rem;
+    font-weight: bold;
+  }
+/* Contact Css End  */
+
+
+/* Subscribe Css Start  */
+
+.news-letter{
+  width: 100%;
+  height: auto;
+  padding: 50px 0;
+}
+.news-letter input{
+  border-radius: 100px 0 0 100px;
+}
+.news-letter .input-group-text{
+  border-radius: 0 100px 100px 0;
+  background-color:rgb(58, 58, 68) !important;
+  font-weight: 600;
+  color: #fff;
+}
+.news-letter .input-group-text:hover{
+  background-color:rgb(55, 55, 131) !important;  
+  color: #000;
+  font-weight: 600;
+}
+/* Subscribe Css Ends  */
+
+/* Footer Css Start  */
+.footerdiv{
+  width: 100%;
+  height: auto;
+  background-color:rgb(55, 55, 131) !important;
+  color: rgb(17, 1, 1);
+  padding-top: 10px;
+}
+.footerdiv .icons i{
+  font-weight: 400;
+}
+.footerdiv h3{
+  font-size: 1.1rem;
+}
+
+.icon1:hover ,.icon2:hover, .icon3:hover, .icon4:hover {
+  color: #fff;
+  background-color: rgba(42, 42, 121, 0.719) !important;
+  border-radius: 100px;
+  padding: 10px ;
+  transition: 0.3s;
+}
+
+.line2{
+  color:rgb(55, 55, 131) !important;
+  font-weight: 900;
+  border-bottom: 3px solid rgb(219, 16, 16) !important;   
+}
+
+.line3{
+  padding-top: 5px;
+  color:rgb(55, 55, 131) !important;
+  font-weight: 900;
+  border-bottom: 2px solid rgb(219, 16, 16) !important;   
+}
+
+
+.navigation a{
+  color: rgb(17, 1, 1);
+  font-weight:500;
+  font-size: 0.9rem;
+  padding-left: 10px;  
+}
+.navigation a:hover{
+  color: #fff !important;  
+  transition: 0.3s;
+}
+
+.footerdiv .input-group-text{
+  border-radius: 0 100px 100px 0 !important;
+  min-width: 60px;
+  min-height: 30px;
+  background-color:rgb(58, 58, 68) !important ;
+  color: #fff !important;
+  font-weight: 600;
+  transition: 0.3s;
+}
+.footerdiv input{
+  border-radius: 100px 0 0 100px !important;
+  
+}
+
+.footerdiv .input-group-text:hover{
+  background-color:rgb(55, 55, 131) !important;  
+  color: #000 !important;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+
+
+#arrowBtn{
+    
+  position: fixed;
+  bottom: 20px;
+  right: 40px;
+  z-index: 99;    
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  background-color:rgb(58, 58, 68) !important ;
+  color: #fff;
+}
+
+#arrowBtn:hover{
+  background-color:rgb(42, 42, 133) !important;
+  color: #000 !important;
+  border-radius: 100px;
+  transition: 0.4s;
+}
+
+/* Footer Css End  */
+
+
+
+/* Media Query Start  */
